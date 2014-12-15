@@ -1,5 +1,5 @@
 module Refinery
-  module Bootstrap
+  module Bits
     class BootstrapMenuPresenter < ::Refinery::Pages::MenuPresenter
       self.selected_css = :active
       private
