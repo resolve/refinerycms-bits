@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Refinerycms::Bits::VERSION
   spec.authors       = ["Isaac Freeman"]
   spec.email         = ["isaac@resolvedigital.co.nz"]
-  spec.summary       = %q{Bits and pieces I use on Refinery sites}
+  spec.summary       = %q{Bits and pieces we use on Refinery sites}
   spec.description   = %q{TODO: Write a longer description. Optional.}
   spec.homepage      = ""
   spec.license       = "MIT"
