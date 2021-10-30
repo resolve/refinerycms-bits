@@ -57,6 +57,10 @@ module Refinery
         css.reject(&:blank?).presence
       end
 
+      def selected_item_or_descendant_item_selected?(item)
+        selected_item?(item) || descendant_item_selected?(item)
+      end
+
       def selected_item?(item)
         return true if @context.instance_variable_get('@page').id == item.original_id
         super(item)
